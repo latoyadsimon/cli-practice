@@ -13,3 +13,27 @@ In this exercise you will practice creating files and directories and deleting t
 6. From within the cli, view the contents of the file you just created (`head`, `tail`, `less`): head test.txt, tail test.txt, less tail.txt ; spacebar moves down a page, b moves up a page, q to quit
 7. Navigate one level up from the `test` directory to it's parent directory: cd ../
 8. Delete the `test` directory (it contains files now, so you might need to add an option to `rm`!) rm -rf test
+
+Completed Terminal Tutor
+https://www.terminaltutor.com
+https://www.terminaltutor.com/congrats
+
+
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
+* What is the command line? Our terminal 
+* How do you open it on your computer? either search windows powershell, ubuntu, or use vscode
+* How can you navigate into a particular file directory? cd <filename>
+
+  - Where will `cd .` navigate you to? the current directory, 
+  - Where will `cd ..` navigate you to? one step up from the current directory
+  - Where will `cd ~` navigate you to? to home
+  - Where will `cd /` navigate you to? to the root folder
+* How can you display the name of the directory you are currently in? pwd
+* How can you display the contents of the directory you are currently in? ls, ls -F
+* How can you create a new directory? mkdir <filename>
+* How can you create a new file? touch <filename>
+* How can you destroy a directory or file? rm -rf <filename>
+* How can you rename a directory or file? mv <oldName> <newName>
