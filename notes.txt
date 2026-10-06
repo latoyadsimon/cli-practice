@@ -1,0 +1,15 @@
+10/04/2026
+completed the exercise with creating the test file
+
+## Exercise:
+
+In this exercise you will practice creating files and directories and deleting them.
+
+1. Navigate to your home directory (`~`) - In the terminal, ~
+2. Create a new directory in your home directory and  name it `test`: mkdir test
+3. Navigate into the `test` directory: cd directory
+4. Create a new file called `test.txt` using the `touch` command: touch test.txt
+5. Open this file with VSCode (from the command line using `code test.txt`) give it some content, and then save: code test.txt
+6. From within the cli, view the contents of the file you just created (`head`, `tail`, `less`): head test.txt, tail test.txt, less tail.txt ; spacebar moves down a page, b moves up a page, q to quit
+7. Navigate one level up from the `test` directory to it's parent directory: cd ../
+8. Delete the `test` directory (it contains files now, so you might need to add an option to `rm`!) rm -rf test
